@@ -34,3 +34,7 @@ if 'VIRTUAL_ENV' in os.environ:
 EOF
 
 
+set mouse=a
+set mousemodel=popup
+set makeprg=pylint\ --reports=n\ --output-format=parseable\ %:p
+set errorformat=%f:%l:\ %m
